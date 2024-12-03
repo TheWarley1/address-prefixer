@@ -63,7 +63,7 @@ def add_prefix_to_addresses(input_csv, output_csv, prefix_url, address_column):
 if __name__ == "__main__":
     input_csv = "addresses.csv"  # Input CSV file with addresses
     output_csv = "prefixed_addresses.csv"  # Output CSV file to save the results
-    prefix_url = "https://gmgn.ai/sol/address/"
+    prefix_url = "https://gmgn.ai/base/address/"
     address_column = "Address"  # Column name containing the addresses
 
     try:
